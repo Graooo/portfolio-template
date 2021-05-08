@@ -1,0 +1,97 @@
+/* NAV */
+.nav {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 100vh;
+  position: fixed;
+  background-color: #f1faee;
+  border-right: 1px solid #457b9d;
+  left: -100%;
+  transition: 0.25s;
+}
+
+.active {
+  left: 0;
+  transition: 0.25s;
+}
+
+.nav-logo {
+  padding: 50px 0;
+}
+
+.nav-side {
+  padding: 30px 0px;
+}
+
+/* NAV LOGO */
+.logo {
+  color: #1d3557;
+  padding: 5px 10px;
+  position: relative;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.logo::before {
+  border-left: 4px solid #1d3557;
+  border-top: 4px solid #1d3557;
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0;
+  left: 0;
+}
+
+.logo::after {
+  border-right: 4px solid #1d3557;
+  border-bottom: 4px solid #1d3557;
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  bottom: 0;
+  right: 0;
+}
+
+/* NAV SIDE */
+
+.link {
+  color: #1d3557;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #457b9d;
+  line-height: 50px;
+}
+
+li {
+  list-style: none;
+}
+.link-text {
+  padding: 0 5px;
+}
+
+/* NAV WORD */
+.nav-word {
+  color: #457b9d;
+  padding: 50px 50px 50px 0px;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 480px) {
+  .nav {
+    width: 270px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav {
+    left: 0;
+  }
+  .toggle {
+    visibility: hidden;
+  }
+}

@@ -1,0 +1,36 @@
+.home-page {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#avatar {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+#home-name {
+  font-size: 2em;
+  padding: 10px 0px 0px;
+}
+
+#home-title {
+  font-size: 1rem;
+  padding: 20px;
+}
+
+.icon {
+  background-color: #e63946;
+  color: #ffffff;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin: 0px 5px;
+  text-align: center;
+  line-height: 40px;
+}
