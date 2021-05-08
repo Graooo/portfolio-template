@@ -1,5 +1,5 @@
 import React from "react";
-import avatarImg from "../assets/dinosaur.png";
+import avatarImg from "./dinosaur.png";
 import { RiGithubLine } from "react-icons/ri";
 import { FaLinkedinIn } from "react-icons/fa";
 import { GrFacebookOption } from "react-icons/gr";

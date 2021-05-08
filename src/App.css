@@ -28,5 +28,6 @@ body {
 @media screen and (min-width: 1200px) {
   .content-wide {
     margin-left: 270px;
+    padding: 0px 100px;
   }
 }

@@ -1,0 +1,163 @@
+.about-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* HEADER */
+.header {
+  padding: 50px 0px 30px 0px;
+}
+
+.title {
+  font-size: 3rem;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.title::before {
+  border-bottom: 4px solid #e63946;
+  content: "";
+  height: 4px;
+  width: 50px;
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+}
+
+.title::after {
+  border-bottom: 4px solid #e63946;
+  content: "";
+  height: 4px;
+  width: 25px;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+
+.intro {
+  font-size: 2rem;
+  word-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.discription {
+  font-size: 1.5rem;
+}
+
+/* INFO */
+.info {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-items {
+  line-height: 1.5rem;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid #a8dadc;
+}
+
+.info-items span {
+  margin-left: 10px;
+}
+
+.info-btns {
+  padding-top: 30px;
+}
+
+.btn:first-child {
+  margin-right: 20px;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 12px 36px;
+  background-color: #e63946;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 50px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* SKILL */
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+.skill-item {
+  flex-basis: 100%;
+  margin-bottom: 30px;
+}
+
+.skill-name {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.progress {
+  background-color: #e3e3e3;
+  height: 8px;
+  border-radius: 4px;
+  width: 100%;
+  position: relative;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: red;
+  border-radius: 4px;
+}
+
+.progress-percent {
+  position: absolute;
+  top: -27px;
+  right: 0;
+  font-weight: 400;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 480px) {
+  .info-items {
+    max-width: calc(50% - 15px);
+  }
+  .info-items:nth-child(odd) {
+    margin-right: 30px;
+  }
+  .info-items span {
+    display: block;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .info {
+    flex-basis: 65%;
+  }
+  .skills {
+    flex-basis: 35%;
+  }
+  .skill-item {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .info-items span {
+    margin-left: 10px;
+    display: inline-block;
+  }
+}

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navigation from "./components/Navigation";
-import Home from "./pages/Home";
-import About from "./pages/About";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
