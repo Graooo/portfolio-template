@@ -15,7 +15,12 @@ const Home = () => {
       <div id="home-name">Grao</div>
       <div id="home-title">I'm a Web Developer</div>
       <div>
-        <a className="icon" href="#github">
+        <a
+          className="icon"
+          href="https://github.com/Graooo"
+          target="_blank"
+          rel="noreferrer"
+        >
           <RiGithubLine />
         </a>
         <a className="icon" href="#facebook">

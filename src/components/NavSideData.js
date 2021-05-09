@@ -16,9 +16,9 @@ export const NavSideData = [
     path: "/projects",
     icon: <TiContacts />,
   },
-  {
-    title: "Contact",
-    path: "/contact",
-    icon: <TiDocumentText />,
-  },
+  // {
+  //   title: "Contact",
+  //   path: "/contact",
+  //   icon: <TiDocumentText />,
+  // },
 ];
