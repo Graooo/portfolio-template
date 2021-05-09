@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
+import Projects from "./pages/project/Projects";
+import Contact from "./pages/contact/Contact";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 import "./App.css";
