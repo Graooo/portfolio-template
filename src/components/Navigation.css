@@ -1,12 +1,15 @@
 /* NAV */
 .nav {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  z-index: 1;
   width: 100%;
   box-sizing: border-box;
   padding-left: 30px;
   padding-right: 30px;
   height: 100vh;
   position: fixed;
-  background-color: #f1faee;
+  background-color: #fdf9ff;
   border-right: 1px solid #457b9d;
   left: -100%;
   transition: 0.25s;
@@ -27,7 +30,9 @@
 
 /* NAV LOGO */
 .logo {
-  color: #1d3557;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  color: #302e4d;
   padding: 5px 10px;
   position: relative;
   text-decoration: none;
@@ -35,8 +40,8 @@
 }
 
 .logo::before {
-  border-left: 4px solid #1d3557;
-  border-top: 4px solid #1d3557;
+  border-left: 4px solid #e63946;
+  border-top: 4px solid #e63946;
   content: "";
   position: absolute;
   width: 15px;
@@ -46,8 +51,8 @@
 }
 
 .logo::after {
-  border-right: 4px solid #1d3557;
-  border-bottom: 4px solid #1d3557;
+  border-right: 4px solid #e63946;
+  border-bottom: 4px solid #e63946;
   content: "";
   position: absolute;
   width: 15px;
@@ -59,7 +64,9 @@
 /* NAV SIDE */
 
 .link {
-  color: #1d3557;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #302e4d;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -67,21 +74,43 @@
   line-height: 50px;
 }
 
+.link:hover {
+  color: #e63946;
+}
+
 li {
   list-style: none;
 }
 .link-text {
   padding: 0 5px;
+  transition: all 0.25s ease;
+}
+
+.link-text:hover {
+  transform: translate(3px);
 }
 
 /* NAV WORD */
 .nav-word {
-  color: #457b9d;
-  padding: 50px 50px 50px 0px;
+  padding-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  color: #1d3557;
+}
+
+.word {
+  color: #504e70;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-style: italic;
+}
+
+.word-author {
+  padding-top: 1rem;
+  font-size: 0.9rem;
 }
 
 /* RESPONSIVE */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 720px) {
   .nav {
     width: 270px;
   }

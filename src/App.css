@@ -1,12 +1,25 @@
 body {
-  background-color: #457b9d;
+  background-color: #f2f2fc;
 }
 
 /* TOGGLE */
 .toggle {
-  top: 25px;
+  background-color: #fdf9ff;
+  border: 1px solid #457b9d;
+  font-size: 1.5rem;
+  color: #e63946;
+  height: 30px;
+  width: 40px;
+  top: 15px;
   position: absolute;
   z-index: 2;
+  padding-top: 2px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.toggle:hover {
+  cursor: pointer;
 }
 
 .open {

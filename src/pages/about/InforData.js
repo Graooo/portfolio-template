@@ -1,7 +1,7 @@
 export const InforData = [
   {
     title: "Birthday",
-    value: "14 July 199x",
+    value: "14 July",
   },
   {
     title: "Age",
@@ -13,7 +13,7 @@ export const InforData = [
   },
   {
     title: "Email",
-    value: "XXX@gmail.com",
+    value: "abc@gmail.com",
   },
   {
     title: "Phone",

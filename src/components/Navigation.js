@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { NavSideData } from "./NavSideData";
 import "./Navigation.css";
 
@@ -7,23 +7,34 @@ const Navigation = ({ sidebar }) => {
     <div>
       <nav className={sidebar ? "nav active" : "nav"}>
         <div className="nav-logo">
-          <Link className="logo" to="/">
+          <NavLink className="logo" to="/">
             Graooo
-          </Link>
+          </NavLink>
         </div>
         <div className={"nav-side"}>
           {NavSideData.map((item, index) => {
             return (
               <li key={index}>
-                <Link to={item.path} className={"link"}>
+                <NavLink
+                  exact
+                  activeStyle={{ color: "#e63946" }}
+                  to={item.path}
+                  className={"link"}
+                >
                   {item.icon}
                   <div className={"link-text"}>{item.title}</div>
-                </Link>
+                </NavLink>
               </li>
             );
           })}
         </div>
-        <div className="nav-word">"I read it on reddit" ___Graooo___</div>
+        <div className="nav-word">
+          <p className="word">
+            "I will tell you how to become rich. Close the doors. Be fearful
+            when others are greedy. Be greedy when others are fearful."{" "}
+          </p>
+          <p className="word-author">___Warren Buffet___</p>
+        </div>
       </nav>
     </div>
   );

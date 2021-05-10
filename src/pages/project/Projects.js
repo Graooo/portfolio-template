@@ -5,8 +5,11 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <section className="projects-page">
-      <header className="header">
+      <header className="projects-header">
         <div className="title">Projects</div>
+        <div className="projects-intro">
+          Click on pictures below to see my projects
+        </div>
       </header>
       <main className="projects">
         {ProjectsData.map((item, index) => {

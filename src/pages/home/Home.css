@@ -1,4 +1,5 @@
 .home-page {
+  font-family: "Rubik", sans-serif;
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -6,20 +7,68 @@
   flex-direction: column;
 }
 
-#avatar {
+.card {
+  border-radius: 5px;
+  overflow: hidden;
+  width: 280px;
+  height: 410px;
+  background-color: #fdf9ff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.card-header {
+  display: flex;
+  height: 130px;
+  background: #457b9d;
+}
+
+.avatar {
+  position: relative;
+  margin: 0 auto;
+}
+
+#img {
+  position: relative;
+  margin-top: 30px;
+  width: 140px;
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  border: 5px solid white;
 }
 
-#home-name {
-  font-size: 2em;
-  padding: 10px 0px 0px;
+.card-body {
+  padding: 30px;
 }
 
-#home-title {
-  font-size: 1rem;
-  padding: 20px;
+.user-meta {
+  padding-top: 40px;
+}
+
+.user-name {
+  color: #302e4d;
+  font-weight: 900;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.user-disr {
+  font-weight: 500;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.9rem;
+  color: #999;
+  line-height: 1.2rem;
+  word-spacing: 0.1rem;
+}
+
+.icon-group {
+  text-align: center;
 }
 
 .icon {
@@ -33,4 +82,9 @@
   margin: 0px 5px;
   text-align: center;
   line-height: 40px;
+  transition: all 0.5s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
 }

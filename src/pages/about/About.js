@@ -6,10 +6,13 @@ import "./About.css";
 const About = () => {
   return (
     <section className="about-page">
-      <header className="header">
+      <header className="about-header">
         <div className="title">About me</div>
-        <div className="intro">I am Graooo</div>
-        <div className="discription">My discription</div>
+        <div className="about-intro">Hi, I am Graooo !</div>
+        <div className="discription">
+          THIS is a very very long long long discription. I just wanna type it
+          to create a space keepper LOL!
+        </div>
       </header>
       <main className="main">
         <div className="info">
@@ -34,19 +37,11 @@ const About = () => {
                     className="progress-bar"
                     style={{ width: item.value }}
                   ></div>
-                  <div className="progress-percent">{item.value}</div>
+                  {/* <div className="progress-percent">{item.value}</div> */}
                 </div>
               </div>
             );
           })}
-        </div>
-        <div className="info-btns">
-          <a href="#download" className="btn">
-            Download CV
-          </a>
-          <a href="#hire" className="btn">
-            Hire Me
-          </a>
         </div>
       </main>
     </section>
