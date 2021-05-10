@@ -1,4 +1,4 @@
-import { TiHome, TiUser, TiContacts, TiDocumentText } from "react-icons/ti";
+import { TiHome, TiUser, TiContacts } from "react-icons/ti";
 
 export const NavSideData = [
   {
@@ -16,9 +16,4 @@ export const NavSideData = [
     path: "/projects",
     icon: <TiContacts />,
   },
-  // {
-  //   title: "Contact",
-  //   path: "/contact",
-  //   icon: <TiDocumentText />,
-  // },
 ];

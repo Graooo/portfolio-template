@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section className="projects-page">
       <header className="header">
-        <div className="title">Prjectss</div>
+        <div className="title">Projects</div>
       </header>
       <main className="projects">
         {ProjectsData.map((item, index) => {

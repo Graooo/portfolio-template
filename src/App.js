@@ -4,7 +4,6 @@ import Navigation from "./components/Navigation";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Projects from "./pages/project/Projects";
-import Contact from "./pages/contact/Contact";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import "./App.css";
 
@@ -13,6 +12,7 @@ function App() {
   const showSidebar = () => {
     setSidebar(!sidebar);
   };
+
   return (
     <Router>
       <button
@@ -35,7 +35,6 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
-          <Route path="/contact" component={Contact} />
           <Route path="/:somestring" component={Home} />
         </Switch>
       </div>
