@@ -1,1 +1,1 @@
-A simple portfolio built by React JS
+A portfolio template built by React JS
