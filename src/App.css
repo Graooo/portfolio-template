@@ -43,4 +43,8 @@ body {
     margin-left: 270px;
     padding: 0px 100px;
   }
+
+  .toggle {
+    visibility: hidden;
+  }
 }

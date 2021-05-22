@@ -1,8 +1,4 @@
-export const InforData = [
-  {
-    title: "Birthday",
-    value: "14 July",
-  },
+export const INFOR_DATA = [
   {
     title: "Age",
     value: "26",
@@ -17,10 +13,14 @@ export const InforData = [
   },
   {
     title: "Phone",
-    value: "+84 97 165 xxxx",
+    value: "+84 97 xxx xxxx",
   },
   {
-    title: "Degree",
-    value: "12/12",
+    title: "Education",
+    value: "Self-taught",
+  },
+  {
+    title: "Hobby",
+    value: "Reading, Gaming and Investing",
   },
 ];

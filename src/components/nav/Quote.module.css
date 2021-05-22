@@ -1,0 +1,17 @@
+.quote {
+  padding-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  color: #1d3557;
+}
+
+.text {
+  color: #504e70;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-style: italic;
+}
+
+.author {
+  padding-top: 1rem;
+  font-size: 0.9rem;
+}

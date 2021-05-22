@@ -1,0 +1,57 @@
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* HEADER */
+.page header {
+  padding: 50px 0px 0px 0px;
+}
+
+.intro {
+  color: #302e4d;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  word-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.discription {
+  font-family: "Montserrat", sans-serif;
+  color: #504e70;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 1200px) {
+  .main {
+    transition: all 0.3s;
+    background-color: #fdf9ff;
+    border: 1px solid #457b9d;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .main:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+  }
+
+  .discription {
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+  }
+}

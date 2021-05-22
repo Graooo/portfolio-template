@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navigation from "./components/Navigation";
+import Navigation from "./components/nav/Navigation";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Projects from "./pages/project/Projects";

@@ -1,0 +1,14 @@
+.card {
+  border-radius: 5px;
+  overflow: hidden;
+  width: 280px;
+  height: 410px;
+  background-color: #fdf9ff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}

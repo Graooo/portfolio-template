@@ -1,6 +1,6 @@
 import { TiHome, TiUser, TiContacts } from "react-icons/ti";
 
-export const NavSideData = [
+export const NAV_DATA = [
   {
     title: "Home",
     path: "/",

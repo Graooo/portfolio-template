@@ -20,15 +20,11 @@
   transition: 0.25s;
 }
 
-.nav-logo {
+/* LOGO */
+.container {
   padding: 50px 0;
 }
 
-.nav-side {
-  padding: 30px 0px;
-}
-
-/* NAV LOGO */
 .logo {
   font-family: "Rubik", sans-serif;
   font-weight: 700;
@@ -59,54 +55,6 @@
   height: 15px;
   bottom: 0;
   right: 0;
-}
-
-/* NAV SIDE */
-
-.link {
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif;
-  color: #302e4d;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #457b9d;
-  line-height: 50px;
-}
-
-.link:hover {
-  color: #e63946;
-}
-
-li {
-  list-style: none;
-}
-.link-text {
-  padding: 0 5px;
-  transition: all 0.25s ease;
-}
-
-.link-text:hover {
-  transform: translate(3px);
-}
-
-/* NAV WORD */
-.nav-word {
-  padding-top: 100px;
-  font-family: "Montserrat", sans-serif;
-  color: #1d3557;
-}
-
-.word {
-  color: #504e70;
-  font-weight: 400;
-  line-height: 1.5rem;
-  font-style: italic;
-}
-
-.word-author {
-  padding-top: 1rem;
-  font-size: 0.9rem;
 }
 
 /* RESPONSIVE */

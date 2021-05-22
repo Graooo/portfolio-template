@@ -1,0 +1,21 @@
+.icons {
+  text-align: center;
+}
+
+.icons a {
+  background-color: #e63946;
+  color: #ffffff;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin: 0px 5px;
+  text-align: center;
+  line-height: 40px;
+  transition: all 0.5s ease;
+}
+
+.icons a:hover {
+  transform: scale(1.2);
+}
